@@ -1,23 +1,25 @@
 /* Configuração geral do corpo da página */
 body{
     margin: 0px;
+    background-color: black;
     font-family: "Century Gothic", sans-serif;
+    color: #FFF;
 }
 
 /* Configurações gerais */
-header .immortalBackground{
+header .lsImmortalAlbumBkgd{
     position: absolute;
     height: 500px;
     width: 100%;
     bottom: 230px;
 }
 
-header .shadowOfIntentLogo{
+header .lsLogoMenu{
     position: relative;
     height: 250px;
 }
 
-nav{
+#menuNav{
     clear: both;
     width: 75%;
     margin: 0px auto;
@@ -41,8 +43,47 @@ nav .opcao{
     left: 175px;
     bottom: 275px;
 }
+.lsLogoIntroSite{
+    text-align: center;
+}
 
-header .soiElegyAlbumBackground {
+.introSite{
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.imgIntroBanda{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.lsLinks{
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+footer{
+    background-color: gray;
+    padding: 10px;
+}
+
+.lsFleshCoffinAlbumLogo{
+    
+    height: 150px;
+}
+
+.lsOldLogo{
+    
+    height: 150px;
+}
+
+.lsImmortalAlbumLogo{
+    right: 500px;
+    height: 150px;
+}
+
+/*header .soiElegyAlbumBackground {
     background-image: url("https://static1.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2146/assets/alt-bg-image.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -57,6 +98,7 @@ header .soiElegyAlbumBackground {
     min-height: 100%;
     z-index: 1
 }
+*/
 
 /* Cabeçalho */
 

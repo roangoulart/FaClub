@@ -1,7 +1,7 @@
 /* Configuração geral do corpo da página */
 body{
     margin: 0px;
-    background-color: black;
+    background-color: #393939;
     font-family: "Century Gothic", sans-serif;
     color: #FFF;
 }
@@ -21,9 +21,9 @@ header .lsLogoMenu{
 
 #menuNav{
     clear: both;
-    width: 75%;
+    width: 70%;
     margin: 0px auto;
-    height: 150px;
+    height: 75px;
 }
 
 nav a{
@@ -39,47 +39,60 @@ nav .opcao{
     background-color: gray;
     padding: 10px 0;
     margin: 0 1%;
-    font-size: 26px;
+    font-weight: 900;
+    border-radius: 5px;
     left: 175px;
     bottom: 275px;
+    cursor: pointer;
 }
+
 .lsLogoIntroSite{
     text-align: center;
 }
 
 .introSite{
-    margin-top: 150px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .imgIntroBanda{
-    margin-top: 150px;
-    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 50px;
+}
+.imgIntroBanda img {
+    /* width: 400px; */
 }
 
-.lsLinks{
-    margin-top: 150px;
-    margin-right: 150px;
+#lsLinks{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#lsLinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer{
-    background-color: gray;
+    text-align: center;
+    background-color: black;
     padding: 10px;
 }
 
 .lsFleshCoffinAlbumLogo{
-    
     height: 150px;
 }
 
 .lsOldLogo{
-    
     height: 150px;
 }
 
 .lsImmortalAlbumLogo{
-    right: 500px;
     height: 150px;
 }
 
@@ -100,11 +113,28 @@ footer{
 }
 */
 
-/* Cabeçalho */
+/* Buttons */
+.saberMais {
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    height: 60px;
+    font-weight: 900;
+    cursor: pointer;
+}
 
+.faClube {
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    height: 60px;
+    font-weight: 900;
+    cursor: pointer;
+}
 
-/* Menu */
-
-
-/* Configuração da página incial */
+.faClube:hover , .saberMais:hover {
+    background-color: #FFF;
+    color: rgb(252, 6, 6);
+    transition: .3s;
+}
 

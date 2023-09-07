@@ -123,10 +123,6 @@ footer{
     cursor: pointer;
 }
    
-
-
-
-
 .faClube {
     background-color: gray;
     color: black;
@@ -136,7 +132,14 @@ footer{
     cursor: pointer;
 }
 
-.faClube:hover , .saberMais:hover {
+.opcaoButton {
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faClube:hover , .saberMais:hover, .opcaoButton:hover{
     background-color: #FFF;
     color: rgb(252, 6, 6);
     transition: .3s;

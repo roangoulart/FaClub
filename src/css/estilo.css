@@ -1,5 +1,5 @@
 /* Configuração geral do corpo da página */
-body{
+body {
     margin: 0px;
     background-color: #393939;
     font-family: "Century Gothic", sans-serif;
@@ -7,32 +7,32 @@ body{
 }
 
 /* Configurações gerais */
-header .lsImmortalAlbumBkgd{
+header .lsImmortalAlbumBkgd {
     position: absolute;
     height: 500px;
     width: 100%;
     bottom: 230px;
 }
 
-header .lsLogoMenu{
+header .lsLogoMenu {
     position: relative;
     height: 250px;
 }
 
-#menuNav{
+#menuNav {
     clear: both;
     width: 70%;
     margin: 0px auto;
     height: 75px;
 }
 
-nav a{
+nav a {
     color: black;
     text-decoration: none;
     text-align: center;
 }
 
-nav .opcao{
+nav .opcao {
     position: relative;
     float: right;
     width: 29%;
@@ -46,27 +46,24 @@ nav .opcao{
     cursor: pointer;
 }
 
-.lsLogoIntroSite{
+.lsLogoIntroSite {
     text-align: center;
 }
 
-.introSite{
+.introSite {
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
 }
 
-.imgIntroBanda{
+.imgIntroBanda {
     display: flex;
     gap: 30px;
     justify-content: space-around;
     padding: 50px;
 }
-.imgIntroBanda img {
-    /* width: 400px; */
-}
 
-#lsLinks{
+#lsLinks {
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -78,21 +75,21 @@ nav .opcao{
     flex-direction: column;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: black;
     padding: 10px;
 }
 
-.lsFleshCoffinAlbumLogo{
+.lsFleshCoffinAlbumLogo {
     height: 150px;
 }
 
-.lsOldLogo{
+.lsOldLogo {
     height: 150px;
 }
 
-.lsImmortalAlbumLogo{
+.lsImmortalAlbumLogo {
     height: 150px;
 }
 
@@ -122,7 +119,7 @@ footer{
     font-weight: 900;
     cursor: pointer;
 }
-   
+
 .faClube {
     background-color: gray;
     color: black;
@@ -139,32 +136,67 @@ footer{
     cursor: pointer;
 }
 
-.faClube:hover , .saberMais:hover, .opcaoButton:hover{
+.faClube:hover, .saberMais:hover, .opcaoButton:hover {
     background-color: #FFF;
     color: rgb(252, 6, 6);
     transition: .3s;
 }
 
 
-.historiaBanda{
+.historiaBanda {
     margin-top: 50px;
     margin-right: 150px;
     margin-left: 150px;
 }
 
-.lsPainRemainsAW{
+.lsPainRemainsAW {
     width: 500px;
 }
-.lsAIRTNEPWallpaper{
-        width: 500px;
+
+.lsAIRTNEPWallpaper {
+    width: 500px;
 }
-a{
+
+a {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
-table, tr, td ,th{
-    border: 0px; 
+table, tr, td, th {
+    border: 0px;
     text-align: center;
-    }
+}
+
+.lsAlbumsMusicas {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.discografia2 {
+    margin-top: 25px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.inscricao {
+    width: 300px;
+    margin: 0px auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inscricao input, .inscricao select {
+    margin: 5px auto;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.inscricao button {
+    width: 30%;
+    margin: 0 10%;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 16px;
+}

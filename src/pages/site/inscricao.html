@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
-    <meta name="description" content="Site Fã Clube do Lorna Shore">
+    <meta name="description" content="Lorna Shore Fã-Clube">
+    <meta name="keywords" content="Músicas, Álbuns, História da banda">
     <meta name="author" content="Roan Goulart">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lorna Shore Fã-Clube</title>
@@ -11,6 +12,65 @@
 </head>
 
 <body>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273005.53795558!2d-75.11417286815491!3d40.886936435908964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c382d94a8a3f05%3A0x546ba35e8896ea4f!2sCondado%20de%20Warren%2C%20NJ%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1692915373423!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <header>
+        <img src="/src/imgs/LornaShoreImmortalAlbumBackground.jpg" alt="Arte de fundo do Álbum Immortal"
+            class="lsImmortalAlbumBkgd">
+        <img src="/src/imgs/LornaShoreNewLogo.png" alt="Logo do Lorna Shore" class="lsLogoMenu">
+        <!-- <img src="./src/imgs/soiElegyAlbumBackground.jpg" alt="soi logo" class="soiElegyAlbumBackground"> -->
+        <h1>Lorna Shore Fã-Clube</h1>
+    </header>
+
+    <nav id="menuNav">
+        <a href="/src/pages/site/inscricao.html"><button class="opcao opcaoButton">Inscreva-se</button></a>
+        <a href="/src/pages/site/sobre.html"><button class="opcao opcaoButton">Sobre</button></a>
+        <a href="/index.html"><button class="opcao opcaoButton">Início</button></a>
+    </nav>
+
+    <body>
+        <section class="login">
+            <h2>Inscreva-se no Fã-Clube</h2>
+            <p>Ao se inscrever no Fã-Clube, você pode optar para receber notificações toda vez que a banda lançar música
+                novo, videoclipe, álbum e notícias importante.</p>
+            <form name="frminscricao" method="get" action="#">
+                <fieldset class="inscricao">
+                    <legend>Inscrição:</legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="txtnome" id="nome">
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input type="text" name="txtsobrenome" id="sobrenome">
+                    <label for="sexo">Sexo: </label>
+                    <select name="selsexo" id="sexo">
+                        <option value="">Informe</option>
+                        <option value="MAS">Masculino</option>
+                        <option value="FEM">Feminino</option>
+                        <option value="OU">Outro(a)</option>
+                    </select>
+                    <label for="datanascimento">Data de Nascimento: </label>
+                    <input type="text" name="txtdatanascimento" id="nascimento">
+                    <label for="fone">Telefone: </label>
+                    <input type="text" name="txtfone" id="fone">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="txtemail" id="email">
+                    <button type="reset">Limpar Campos</button><button type="subscribe">Inscrever-se</button>
+                </fieldset>
+            </form>
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273005.53795558!2d-75.11417286815491!3d40.886936435908964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c382d94a8a3f05%3A0x546ba35e8896ea4f!2sCondado%20de%20Warren%2C%20NJ%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1692915373423!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <section>
+            <img src="/src/imgs/LornaShoreFleshCoffinAlbumLogo.png" alt="Logo do Álbum Flesh Coffin"
+                class="lsFleshCoffinAlbumLogo">
+            <img src="/src/imgs/LornaShoreOldLogo.png" alt="Antiga Logo do Lorna Shore" class="lsOldLogo">
+            <img src="/src/imgs/LornaShoreImmortalAlbumLogo.png" alt="Logo Álbum Immortal" class="lsImmortalAlbumLogo">
+        </section>
+    </footer>
 </body>
+
 </html>

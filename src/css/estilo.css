@@ -1,11 +1,11 @@
-/*reset css*/
+/*Reset Css*/
 /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 } */
 
-/* Configuração geral do corpo da página */
+/* Configuração Geral do Corpo da Página */
 body {
     margin: 0px;
     background-color: #393939;
@@ -13,7 +13,9 @@ body {
     color: #FFF;
 }
 
-/* Configurações gerais */
+/* Configurações Gerais */
+
+/* Plano de Fundo do Menu */
 header .lsImmortalAlbumBkgd {
     position: absolute;
     height: 500px;
@@ -21,10 +23,14 @@ header .lsImmortalAlbumBkgd {
     bottom: 230px;
 }
 
+/* Logo no Plano de Fundo do Menu */
+
 header .lsLogoMenu {
     position: relative;
     height: 250px;
 }
+
+/* Botões do Menu */
 
 #menuNav {
     clear: both;
@@ -32,6 +38,8 @@ header .lsLogoMenu {
     margin: 0px auto;
     height: 75px;
 }
+
+/* Decoração dos botões do Menu */
 
 nav a {
     color: black;
@@ -53,15 +61,21 @@ nav .opcao {
     cursor: pointer;
 }
 
+/* Logo no topo do Header */
+
 .lsLogoIntroSite {
     text-align: center;
 }
+
+/* Texto de introdução no meio do Header */
 
 .introSite {
     margin-top: 50px;
     margin-right: 150px;
     margin-left: 150px;
 }
+
+/* Imagem de introdução no fim do header */
 
 .imgIntroBanda {
     display: flex;
@@ -70,11 +84,15 @@ nav .opcao {
     padding: 50px;
 }
 
+/* Configuração dos botões com link ao lado da imagem */
+
 .lsLinks {
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* Indentação dos botões com link ao lado da imagem */
 
 .lsLinks {
     display: flex;
@@ -82,25 +100,35 @@ nav .opcao {
     flex-direction: column;
 }
 
+/* Footer / Rodapé */
+
 footer {
     text-align: center;
     background-color: black;
     padding: 10px;
 }
 
-.lsFleshCoffinAlbumLogo {
+/* Logo a direita no rodapé */
+
+.lsFleshCoffinLogo {
     height: 150px;
 }
+
+/* Logo no meio do rodapé */
 
 .lsOldLogo {
     height: 150px;
 }
 
-.lsImmortalAlbumLogo {
+/* Plano de Fundo do Menu */
+
+.lsAIRTNLogo {
     height: 150px;
 }
 
-/*header .soiElegyAlbumBackground {
+/* TESTE
+
+header .soiElegyAlbumBackground {
     background-image: url("https://static1.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2146/assets/alt-bg-image.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -115,7 +143,8 @@ footer {
     min-height: 100%;
     z-index: 1
 }
-*/
+
+/* Fim Teste */
 
 /* Buttons */
 .saberMais {
@@ -160,7 +189,7 @@ footer {
     width: 500px;
 }
 
-.lsAIRTNEPWallpaper {
+.lsAIRTNWallpaper {
     width: 500px;
 }
 

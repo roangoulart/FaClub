@@ -126,26 +126,6 @@ footer {
     height: 150px;
 }
 
-/* TESTE
-
-header .soiElegyAlbumBackground {
-    background-image: url("https://static1.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2146/assets/alt-bg-image.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5cdf1dd585985c0001ddf8dc/1633098371319-WC7PSBAX83MDEBE0J3DB/Shadow+of+Intent_2021_07.jpg);
-    background-position: top left;
-    background-size: contain;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    position: relative;
-    min-width: 100%;
-    width: 100%;
-    min-height: 100%;
-    z-index: 1
-}
-
-/* Fim Teste */
-
 /* Buttons */
 .saberMais {
     background-color: gray;
